@@ -101,7 +101,7 @@ const retirarDinero = () => {
   }
   const dineroRestante = totalDinero - cantidadRetirar;
   if (dineroRestante <= 0) {
-    console.log("El cajero puede entregar");
+    console.log("El cajero No puede entregar");
 
   } else {
     let dineroDisponible = cantidadRetirar;
